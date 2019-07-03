@@ -1,6 +1,7 @@
 package com.ad61v1.test.single;
-
 /**
+ * @Author: zhangtengchen
+ * @Date: 2019/7/3 15:27
  * 枚举单例
  *  直接把SingleEnumUser做成枚举也可以，但是这样能是饿汉式的，这种方式是懒汉式的
  */
@@ -13,7 +14,11 @@ public class SingleEnumUser {
 	private SingleEnumUser() {
 	}
 
+	/**
+	 * 饿汉式单例枚举
+	 */
 	private enum EnumUser{
+		//单例对象
 		INSTANCE;
 
 		private SingleEnumUser singleEnumUser;

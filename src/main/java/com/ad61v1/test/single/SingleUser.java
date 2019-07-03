@@ -1,6 +1,8 @@
 package com.ad61v1.test.single;
 
 /**
+ * @Author: zhangtengchen
+ * @Date: 2019/7/3 15:27
  * 线程安全的单例
  *	参考：https://www.cnblogs.com/boboshenqi/p/9403627.html
  *  volatie可以防止指令重排
