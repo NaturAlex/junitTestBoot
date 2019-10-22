@@ -142,11 +142,11 @@
         </filter>
     </appender>
 
-    <logger name="org.springframework" level="WARN" additivity="false">
+   <!-- <logger name="org.springframework" level="WARN" additivity="false">
         <appender-ref ref="FILEWARN" />
         <appender-ref ref="FILEERROR" />
         <appender-ref ref="STDOUT"/>
-    </logger>
+    </logger>-->
     <logger name="org.hibernate" level="WARN" additivity="false">
         <appender-ref ref="FILEWARN" />
         <appender-ref ref="FILEERROR" />
@@ -184,7 +184,7 @@
     </logger>
 
     <!-- 生产环境下，将此级别配置为适合的级别，以免日志文件太多或影响程序性能 -->
-    <root level="DEBUG">
+    <root level="INFO">
         <!--<appender-ref ref="FILEERROR" />
         <appender-ref ref="FILEWARN" />
         <appender-ref ref="FILEINFO" />-->
