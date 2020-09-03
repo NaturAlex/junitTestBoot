@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Date: 2019/7/3 15:27
  */
 @SpringBootApplication
-@ComponentScan({"com.ways","cn.ways"})
+@ComponentScan({"cn.ways"})
 public class App {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(App.class, args);
