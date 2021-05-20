@@ -16,4 +16,25 @@ public class BaseTest {
         System.out.println("true = " + true);
     }
 
+    abstract class Handler{
+    	public Handler(){
+    		handle();
+		}
+    	abstract void handle();
+	}
+
+    @Test
+    public void abTest() throws Exception {
+    	int a = 1;
+    	int b = 2;
+		Handler handler = new Handler() {
+			@Override
+			void handle() {
+				int c = a+b;
+				System.out.println("c = " + c);
+			}
+		};
+		System.out.println("a = " + a);
+	}
+
 }

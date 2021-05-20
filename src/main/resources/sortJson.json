@@ -1,0 +1,261 @@
+{
+  "associatedLines": [
+    {
+      "subStatus": "UPSUS",
+      "numberOfCustomersOnContract": 33,
+      "customersPagingFromIndex": 0,
+      "customersPagingToIndex": 32,
+      "totalCustomersPerQuery": 33,
+      "contractCode": "84010000000",
+      "uniqueContractCode": "CT_U_PRPO_UCC_S_0010000",
+      "primaryBillingAccountCode": "401000000",
+      "userId": "U-T_ID_S-0001-UBOD-0001-IA0000000000",
+      "msisdn": "4010000000",
+      "lineType": "Universe",
+      "subscriberType": "PREPAID",
+      "registrationStatus": "P",
+      "email": "T_ID_S-0001-UBOD-0001-IA0000000000@ericsson.com",
+      "billingFirstname": "C_UBOF_FN0000",
+      "billingLastname": "C_UBOF_LN0000",
+      "pinCode": "0000",
+      "imsi": "400100000000000",
+      "imsiStatus": "P",
+      "status": "A",
+      "features": "muscfree",
+      "voWifiEnabled": true,
+      "mcaEnabled": true,
+      "mwiEnabled": true,
+      "isPrimary": true,
+      "sdgBlacklist": "0010000002",
+      "iccid": "1234567890",
+      "iccidPin": "1234",
+      "imei": "1400100000000000",
+      "meid": "1234567890",
+      "oemAuthenticationToken": "oem_auth_token",
+      "migrationStatus": "Y",
+      "operatorId": 1000,
+      "isReceivingOffer": true,
+      "nickname": "UBOS_NN",
+      "loginCount": 0,
+      "prepaidPinFailureCount": 0,
+      "ssnFailureCount": 0,
+      "smsPinFailureCount": 0,
+      "customers": [
+        {
+          "customerNumber": "C340100000",
+          "userRoles": [
+            "R",
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100001",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100002",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100003",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100004",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100005",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100006",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100007",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C340100008",
+          "userRoles": [
+            "R"
+          ]
+        },
+        {
+          "customerNumber": "C640100000",
+          "userRoles": [
+            "R",
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100009",
+          "userRoles": [
+            "AV"
+          ]
+        },
+        {
+          "customerNumber": "C340100016",
+          "userRoles": [
+            "AV"
+          ]
+        },
+        {
+          "customerNumber": "C340100017",
+          "userRoles": [
+            "AV"
+          ]
+        },
+        {
+          "customerNumber": "C340100018",
+          "userRoles": [
+            "AV"
+          ]
+        },
+        {
+          "customerNumber": "C340100019",
+          "userRoles": [
+            "AV"
+          ]
+        },
+        {
+          "customerNumber": "C740100000",
+          "userRoles": [
+            "AV",
+            "AO"
+          ]
+        },
+        {
+          "customerNumber": "C340100010",
+          "userRoles": [
+            "CAV"
+          ]
+        },
+        {
+          "customerNumber": "C340100011",
+          "userRoles": [
+            "CAV"
+          ]
+        },
+        {
+          "customerNumber": "C340100012",
+          "userRoles": [
+            "CAV"
+          ]
+        },
+        {
+          "customerNumber": "C340100013",
+          "userRoles": [
+            "CAV"
+          ]
+        },
+        {
+          "customerNumber": "C340100014",
+          "userRoles": [
+            "CAV"
+          ]
+        },
+        {
+          "customerNumber": "C340100015",
+          "userRoles": [
+            "CAV"
+          ]
+        },
+        {
+          "customerNumber": "C540100000",
+          "userRoles": [
+            "CAV",
+            "AO"
+          ]
+        },
+        {
+          "customerNumber": "C340100020",
+          "userRoles": [
+            "AO"
+          ]
+        },
+        {
+          "customerNumber": "C340100021",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100022",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100023",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100024",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100025",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100026",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100027",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100028",
+          "userRoles": [
+            "AM"
+          ]
+        },
+        {
+          "customerNumber": "C340100029",
+          "userRoles": [
+            "AO"
+          ]
+        }
+      ],
+      "linkTypes": [
+        "direct",
+        "indirect"
+      ],
+      "optOutIBA": true,
+      "billCyclePeriod": "25",
+      "multiLinesOnBA": "SL",
+      "lineUse": "test_msisdn_type",
+      "msisdnType": "test_msisdn_type",
+      "msisdnSubType": "test_msisdn_subType",
+      "billingCustomerGroup": "customer_group1",
+      "phoneVerified": 3
+    }
+  ]
+}
